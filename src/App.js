@@ -29,7 +29,6 @@ const App = () => {
   ];
   return (
     <div className="App">
-      {/* <ExpenseItem/> */}
       {expenses.map((expense,index)=>(
         <ExpenseItem 
         key = {index}
