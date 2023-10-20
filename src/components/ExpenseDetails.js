@@ -1,7 +1,7 @@
 import React from "react";
 import Desc from "./Desc";
 // import Desc from "./Desc";
-const Expense = (props) =>{
+const ExpenseDetails = (props) =>{
     return(
         <div>
             <div>
@@ -13,4 +13,4 @@ const Expense = (props) =>{
     )
 }
 
-export default Expense;
+export default ExpenseDetails;
